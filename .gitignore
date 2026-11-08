@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+aio-preview.png
+backups/
+*.bak

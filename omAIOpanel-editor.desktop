@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=omAIOpanel editor
+GenericName=AIO panel layout editor
+Comment=Visually edit the Thermalright AIO panel layout
+Exec=/usr/bin/python /home/cowneko/Projects/omAIOpanel/editor.py
+Path=/home/cowneko/Projects/omAIOpanel
+Icon=video-display
+Terminal=false
+Categories=Utility;Development;
+StartupWMClass=io.cowneko.OmAIOpanel

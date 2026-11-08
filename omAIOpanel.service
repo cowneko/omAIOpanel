@@ -1,0 +1,15 @@
+[Unit]
+Description=omAIOpanel — Omarchy theme-aware Thermalright AIO screen renderer
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/Projects/omAIOpanel
+Environment=PYTHONPATH=%h/Projects/omAIOpanel
+ExecStart=/usr/bin/python -m aio run
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
